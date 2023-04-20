@@ -1,0 +1,67 @@
+.container {
+  background-image: url("../assets/images/Back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+
+  padding-top: 110px;
+  padding-left: 223px;
+}
+
+.content {
+  margin-top: 93px;
+}
+
+.content__title > h1 {
+  display: block;
+  width: 586px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 100%;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.content__title > h1 > span {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 100%;
+  /* identical to box height, or 40px */
+
+  text-transform: uppercase;
+
+  margin-top: 17px;
+
+  background: conic-gradient(
+    from 159.34deg at 24.88% 50%,
+    #2b65fb 0deg,
+    #28d8ff 148.13deg,
+    #85ffb6 307.63deg,
+    #17c213 360deg
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.content__description {
+  margin-top: 45px;
+  width: 444px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  color: #ffffff;
+}
