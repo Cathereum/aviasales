@@ -51,6 +51,7 @@ function Start() {
   };
 
   const restart = () => {
+    reset();
     setIsShared(0);
     setIsComplete(false);
   };
@@ -74,7 +75,7 @@ function Start() {
           </h3>
         </div>
       </div>
-      <button onClick={() => restart} className="refresh__button">
+      <button onClick={() => restart()} className="refresh__button">
         Пройти заново
       </button>
     </div>
